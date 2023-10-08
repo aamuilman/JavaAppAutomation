@@ -34,3 +34,6 @@ public void waitForLearnMoreLink(){
         public void clickGetStarted(){
             this.waitForElement(By.id (GET_STABTER_BUTTON),"Cannot Get started",10)
         }
+        public void getSkip(){
+            this.waitForElement(SKIP, "cannot find skip",5);
+        }
